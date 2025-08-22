@@ -5,7 +5,7 @@ const contentList = ref(Array(100).fill(0).map((_, i) => `Content ${i + 1}`))
 
 <template>
   <main class="flex h-dvh">
-    <aside class="w-60 overflow-y-auto bg-amber-100">
+    <aside class="w-60 shrink-0 overflow-y-auto bg-amber-100">
       <ul>
         <li
           v-for="item in menuList"
