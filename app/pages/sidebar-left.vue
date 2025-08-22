@@ -7,6 +7,7 @@
     <aside class="w-60 bg-amber-100">
       Aside
     </aside>
+
     <div>
       <header class="bg-red-200">
         Header
